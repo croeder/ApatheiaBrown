@@ -1,29 +1,20 @@
 <!doctype html>
 <!-- Apatheia Brown. There is no Mr. Apatheia either. -->
 <html lang="en">
-        <!-- --paper:  #191b1a; -->
-        <!-- --paper:  #141a24; -->
-        <!-- --paper:  #101822; -->
-        <!-- --line:   #34372f;
-             --accent: #93aed2; -->
-
-        <!-- --paper:  #1b2c47; 
-             --line:   #3d4d6;
-             --accent: #d8c08a;
-        -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Apatheia Brown</title>
-  <meta name="description" content="Apatheia Brown. Brown-field software consulting: composure with the systems other people wrote.">
+  <meta name="description" content="Apatheia. Brown-field software consulting: composure with the systems other people inherited.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23edeeea'/%3E%3Cline x1='6' y1='16' x2='26' y2='16' stroke='%23223a5e' stroke-width='1.4'/%3E%3Ccircle cx='16' cy='16' r='3.4' fill='%23edeeea' stroke='%23223a5e' stroke-width='1.4'/%3E%3C/svg%3E">
   <style>
     :root {
-      --paper:  #edeeea;
-      --ink:    #1c1e1d;
-      --muted:  #6f736d;
-      --line:   #c8cac4;
-      --accent: #223a5e;
+--paper:  #e9edf2;
+--ink:    #1c1e1d;
+--name:   #2a4a7a;
+--muted:  #6f736d;
+--line:   #c8cac4;
+--accent: #2a4a7a;
       --sans: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
     }
@@ -31,6 +22,7 @@
       :root {
         --paper:  #1b2c47;
         --ink:    #e9ebf0;
+        --name:   #e9ebf0;
         --muted:  #96a3ba;
         --line:   #3d4d6e;
         --accent: #7f9cc4;
@@ -48,6 +40,15 @@
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
     }
+
+    .who {
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: var(--muted);
+      margin: 2rem 0 0;
+    }
+
 
     .wrap {
       max-width: 640px;
@@ -67,6 +68,7 @@
       font-size: clamp(1.9rem, 5.6vw, 3rem);
       letter-spacing: 0.26em;
       text-transform: uppercase;
+      color: var(--name);
       margin: 0;
       line-height: 1.1;
     }
@@ -125,12 +127,12 @@
     <div class="level" role="presentation"></div>
 
     <main>
-      <p class="body">Apatheia Brown takes on the systems other people inherited and no one fully wants: the fifteen-year-old codebase nobody completely understands, the integration held together by institutional memory, the platform everyone is quietly nervous about. This is brown-field work, and it demands a specific temperament. The composure to see a system clearly for what it is, without recoiling from its history or itching to tear it down and start over. We learn what&rsquo;s there, we respect the decisions that made sense at the time, and we move forward. Apatheia is Greek: <i>apatheia</i>, the Stoic idea of a steady mind. Not indifference, but the capacity to stay level in the face of disorder you didn&rsquo;t create. It&rsquo;s the disposition the work requires. I&rsquo;ve spent a career doing it.</p>
+      <p class="body">Apatheia Brown takes on the systems other people inherited and no one fully wants: the fifteen-year-old codebase nobody completely understands, the integration held together by institutional memory, the platform everyone is quietly nervous about. This is brown-field work, and it demands a specific temperament. The composure to see a system clearly for what it is, without recoiling from its history or itching to tear it down and start over. We learn what&rsquo;s there, we respect the decisions that made sense at the time, and we move forward. <i>Apatheia</i> is Greek: the Stoic idea of a steady mind. Not indifference, but the capacity to stay level in the face of disorder you didn&rsquo;t create. It&rsquo;s the disposition the work requires. </p>
+      <p class="who">Chris Roeder. Software developer working on clinical and biomedical data interoperability and harmonization: OMOP, FHIR, C-CDA, and the semantics underneath.</p>
     </main>
 
     <footer class="contact">
-      <!-- Replace with your real contact: existing email, LinkedIn, whatever you prefer. -->
-      <a href="mailto:you@example.com">you@example.com</a>
+      <a href="mailto:chris@croeder.com">chris@croeder.com</a>
     </footer>
   </div>
 </body>
